@@ -21,7 +21,7 @@ public class ShopToCoffee {
             case 2 -> coffee = new Americano();
             case 3 -> coffee = new Cappuccino();
             default -> {
-                System.out.println("Неправильный выбор. Выбран эспрессо по умолчанию.");
+                System.out.println("Неправильный выбор. Выбран Американо по умолчанию.");
                 coffee = new Americano();
             }
         }
